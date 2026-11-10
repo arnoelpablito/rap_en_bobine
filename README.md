@@ -1,12 +1,13 @@
+> “j'fais confiance à personne, j'ai vu The Wire trois fois” - XNXX, Dinos
+
+> "un je t’aime coupé à l’ammoniaque ou j’finis comme Manu le coq” - A l'ammoniaque, PNL   
+ 
 # Between Film and Flow
 
 ### Cross-References and Cultural Circulation Between French Rap and Cinema (through audio and text)
 
-**Between Film and Flow** is a research project investigating how French rap and cinema reference one another, and whether these cross-media references contribute to cultural discovery. It combines large-scale text analysis, named-entity recognition, film and music metadata, and (at a later stage) survey evidence.
+**Research question:** How do French rap and cinema reference one another, and to what extent do these references generate cultural circulation between the two?
 
-> **Research question:** How do French rap and cinema reference one another, and to what extent do these references generate cultural circulation between the two?
-
-The study examines two complementary mechanisms:
 
 1. **Film → Rap:** Cinema enters French rap through lyrical references, dialogue excerpts, and audio samples.
 2. **Rap → Film:** French rap enters cinema through mentions of rappers, groups, songs, and albums, as well as through film soundtracks.
@@ -17,10 +18,10 @@ The study examines two complementary mechanisms:
 
 | Direction of cultural circulation | Evidence | Observed link | Approach |
 | --- | --- | --- | --- |
-| Film → Rap | Explicit references | Rap song → film, series, character, or actor | Genius annotations; entity extraction and normalization |
-| Film → Rap | Audio samples | Rap song → sampled film | Sample and dialogue-excerpt metadata |
-| Rap → Film | Explicit references | Film → rapper, group, song, or album | French-film metadata; subtitle search |
-| Rap → Film | Soundtracks | Film → French rap recording | Film soundtrack and rap-corpus metadata matching |
+| Film → Rap | Explicit references | Rap song → film, series, character, or actor | Genius annotations; entity extraction (??) and normalization (with IMDb data) |
+| Film → Rap | Audio samples | Rap song → sampled film | Special mention of movie sample in genius annotation (kind of same process as the cell above) |
+| Rap → Film | Explicit references | Film → rapper, group, song, or album | Post 1985 french-film subtitles search (OpenSubtitles) and entity extraction (or only simple regex bc less ambiguous in movies) |
+| Rap → Film | Soundtracks | Film → French rap recording | Match post 1985 french-film soundtracks on IMDb and Genius corpus |
 
 The project starts from an existing corpus of approximately **80,000 French rap songs** and builds a complementary corpus of **French films released since approximately 1985**. The two are linked through references identified in annotations, subtitles, audio samples, and soundtrack credits. These datasets will ultimately support a bipartite **rap–cinema network**.
 
