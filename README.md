@@ -12,7 +12,6 @@
 1. **Film → Rap:** Cinema enters French rap through lyrical references, dialogue excerpts, and audio samples.
 2. **Rap → Film:** French rap enters cinema through mentions of rappers, groups, songs, and albums, as well as through film soundtracks.
 
-**Direction convention:** These arrows denote the *direction of cultural circulation*, as in [`pipeline.md`](pipeline.md), rather than the direction of a textual mention. Thus, an observed reference from a *rap song to a film* belongs to the **Film → Rap** strand; a reference from a *film to a rapper* belongs to **Rap → Film**.
 
 ## Research design
 
