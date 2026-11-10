@@ -1,3 +1,5 @@
+# SAVES AFTER 100 ANNOTATIONS
+
 import json
 import os
 import random
@@ -12,12 +14,12 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-CORPUS_PATH = Path("data/corpus.csv")
-LONG_PATH = Path("data/annotations.csv")
-BACKUP_PATH = Path("data/corpus_before_annotations.csv")
+CORPUS_PATH = Path("../data/corpus.csv")
+LONG_PATH = Path("../data/annotations.csv")
+BACKUP_PATH = Path("../data/corpus_before_annotations.csv")
 
 SAVE_EVERY = 100
-REQUEST_DELAY = (0.6, 1.0)
+REQUEST_DELAY = (0.05, 0.08)
 TIMEOUT = 30
 MAX_REFERENTS_PER_REQUEST = 40
 

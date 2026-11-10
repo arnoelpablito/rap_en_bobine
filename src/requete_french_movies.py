@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 import duckdb
 
 
-BASE = Path(__file__).resolve().parent
+BASE = Path("../data")
 WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
 WIKIDATA_QUERY = """
 PREFIX wd: <http://www.wikidata.org/entity/>
